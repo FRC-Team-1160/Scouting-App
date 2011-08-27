@@ -1,0 +1,3 @@
+This is the official scouting app for Team 1160, Firebird Robotics. It is used to collect information on
+other teams during an FRC competition based on their performance during matches. It reads xml files and
+generates forms based on them.
