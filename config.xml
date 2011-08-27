@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<application>
+	<match>
+		<!-- numerical data -->
+		<field inWeight="true" name="Defense Rating" type="numDropDown" bottom="1" top="5"></field>
+		<field inWeight="true" name="Autonomous" type="numDropDown" bottom="0" top="3"></field>
+        <field inWeight="true" name="Low Teleop Scores" type="sIntInput"></field>
+        <field inWeight="true" name="Mid Teleop Scores" type="sIntInput"></field>
+        <field inWeight="true" name="High Teleop Scores" type="sIntInput"></field>
+		<field inWeight="true" name="Climbing Pts" type="sIntInput"></field>n
+		<!-- ratings -->
+		
+	</match>
+	
+	<pit>
+		<category name="team">
+			<field name="Team Name" type="sStringInput"></field>
+			<field name="Team #" type="sStringInput"></field>
+			<field name="Picture" type="picture"></field>
+			<field name="Major Problems" type="sStringInput"></field>
+		</category>
+		<category name="drivetrain">
+			<field name="# wheels" type="sStringInput"></field>
+			<field name="type wheels" type="sStringInput"></field>
+			<field name="type of drive" type="sStringInput"></field>
+		</category>
+		<category name="kicker">
+			<field name="Description" type="mLineInput"></field>
+			<field name="Kicking Distance" type="sStringInput"></field>
+			<field name="# of bumps" type="numDropDown" bottom="0" top="2"></field>
+		</category>
+		<category name="climbing">
+			<field name="Description" type="mLineInput"></field>
+		</category>
+		<category name="dribbler">
+			<field name="Description" type="mLineInput"></field>
+		</category>
+		<category name="strategy">
+			<field name="Preferred Starting Point" type="sStringInput"></field>
+			<field name="Auton Strategy" type="mLineInput"></field>
+			<field name="Teleop Strategy" type="mLineInput"></field>
+		</category>
+		
+		
+	</pit>
+</application>
+		
+		
