@@ -1,3 +1,4 @@
-This is the official scouting app for Team 1160, Firebird Robotics. It is used to collect information on
-other teams during an FRC competition based on their performance during matches. It reads xml files and
-generates forms based on them.
+This is the official scouting app for Team 1160, Titanium Robotics. It is used to collect information on other teams during an FRC competition based on their performance during matches. 
+- It allows you to rank teams by certain criteria (ie auton teleop end game etc)
+- The data is represented graphically making it easy to understand
+- It is adaptable, using the xml file to set up what data it will record
